@@ -11,7 +11,7 @@ class NegociacaoController {
     adiciona (event) {
         event.preventDefault();
 
-        let data = new DateHelper().textoParaData(this._inputData.value)
+        let data = DateHelper.textoParaData(this._inputData.value)
 
         
         let negociacao = new Negociacao(
